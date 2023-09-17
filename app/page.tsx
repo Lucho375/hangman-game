@@ -53,7 +53,7 @@ export default function Page() {
         resetGame={resetGame}
         isMobile={isMobile}
       />
-      <div className="min-h-[90px] mt-5">
+      <div className="min-h-[90px] mt-4">
         <ResetGameButton isMobile={isMobile} resetGame={resetGame} loser={loser} winner={winner} />
       </div>
     </section>
